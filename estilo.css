@@ -1,0 +1,108 @@
+body{
+    background-color: rgba(7, 112, 173, 0.918);
+    
+}
+
+section{
+    text-align: center;
+    font: normal 14pt Donkin;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 15px;
+    width: 900px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+    
+}
+
+footer, header{
+    color: antiquewhite;
+    text-align: center;
+}
+
+header{
+    font: normal 22pt Justmore;
+
+}
+
+footer{
+    font: normal 14pt Pastel;
+}
+
+div.txt{
+    text-align: justify;
+    padding: 15px;
+}
+
+div.ask{
+    padding: 20px;
+
+}
+
+button#sim{
+    font: normal 14pt Donkin;
+    height: 50px;
+    width: 80px;
+    background-color:rgb(7, 112, 173) ;
+    color: rgb(255, 255, 255);
+    border: 2.7px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    margin-left: -90px;
+    
+}
+
+button#nao{
+    font: normal 14pt Donkin;
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    background-color:rgb(7, 112, 173) ;
+    color: rgb(255, 255, 255);
+    border: 2.7px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    margin-left: 10px;
+    
+}
+
+img{
+    padding: 20px;
+    width: 180px;
+}
+
+
+@font-face {
+    font-family: fontAwesome;
+    src: url(Fontes/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/webfonts/fa-solid-900.ttf);
+}
+
+@font-face {
+    font-family: Kirome;
+    src: url(Fontes/kirome/Kirome.otf);
+}
+
+@font-face {
+    font-family: Bird;
+    src: url(Fontes/birdmathon/Birdmathon-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quikens;
+    src: url(Fontes/quikens/Quikens-Regular.otf);
+}
+
+@font-face {
+    font-family: Justmore;
+    src: url(Fontes/justmore/Justmore\ -\ Personal\ Use.ttf);
+}
+
+@font-face {
+    font-family: Pastel;
+    src: url(Fontes/black_pastel_2/Black\ Pastel.otf);
+}
+
+@font-face {
+    font-family: Donkin;
+    src: url(Fontes/donkin/Donkin.otf);
+}
